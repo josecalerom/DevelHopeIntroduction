@@ -127,3 +127,16 @@ console.log("Comparación ===: ", zetaTres)
 let zetaCuatro = equis !== ye; //Compara negación y tipo
 console.log("Comparación !==: ", zetaCuatro)
 
+let aa, bb, cc, dd;
+aa = 90;
+bb = 88;
+cc = 95;
+dd = 90;
+
+let ampersand = bb < aa && dd > aa   // Conjuncion &&: "y" con un false todo es false
+let pleca = dd > cc || aa > bb //Disyuncion ||: "o" con un true todo es true
+let negacion = aa != dd //Negacion !: cambia la lógica inicial
+
+console.log("&&: ", ampersand)
+console.log("||: ", pleca)
+console.log("!: ", negacion)
